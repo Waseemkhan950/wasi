@@ -1,0 +1,119 @@
+.top-container {
+  background-color: #e4f9f5;
+}
+.middle-container {
+}
+.bottom-container {
+}
+body {
+  margin: 0;
+  /*  it override the already margin given by the browser. */
+  text-align: center;
+  /* it will center align all the text present in the body. if HTML Block elements have 100 pc width, the
+  will also be aligned center. if their width is changed, they will again go to left side. to solve
+  this problem use margin's auto option. margin 0 auto 0 auto will center the block elements.
+  try to use rem instead of pixels, and precentages where sizing is required */
+  font-family: "Merriweather", serif;
+  /* you can get fonts from googlefonts and use them */
+}
+h1 {
+  margin-top: 0px;
+  width: 500px;
+  margin: 3.12rem auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+  /* to make the font dynamic use rem */
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  /* rem give the dynamic sizing */
+  color: #66bfbf;
+  font-weight: normal;
+  /* fontweight define the boldness */
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+a {
+  color: #11999e;
+  margin: 20px;
+  text-decoration: none;
+  /* to remove underline from a tag */
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+.cloudBottom {
+  position: absolute;
+}
+.cloudTop {
+  margin: 3% 0 0 45%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  /* line-height: 2; */
+}
+.comp-img {
+  /* you can take image icons from the website told by Angela */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.profile-img {
+  width: 15%;
+}
+.hack-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  /* you can make your own buttons through a website told by Angela */
+  background-color: #11999e;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 27px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px;
+}
+.btn:hover {
+  /* pesodo class would be executed when hover is triggered. */
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66bfbf;
+  padding: 2.5rem;
+}
+/* a {
+  color: #11999e;
+  margin: 50px;
+} */
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin-top: 50px;
+}
+.contact-me {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.contact-msg {
+  margin: 60px;
+}
